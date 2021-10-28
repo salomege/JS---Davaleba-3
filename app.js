@@ -61,3 +61,8 @@ for (let i = 0; i<10000; i++) {
 }
 console.log (numberArray);
  
+//6
+
+const points = [10, 9, 9, 8, 8, 11, 8, 0, 9, 1];
+points.sort(function(a, b){return b-a});
+console.log (points[1]);
